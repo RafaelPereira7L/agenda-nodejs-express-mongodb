@@ -48,8 +48,8 @@ app.use(csrfMiddleware);
 app.use(routes);
 
 app.on('Pronto', () => {
-    app.listen(1337, () => {
-        console.log('http://localhost:1337/');
-        console.log('Servidor iniciado na porta 1337');
+    app.listen(3000, () => {
+        console.log('http://localhost:3000/');
+        console.log('Servidor iniciado na porta 3000');
     });
 });
